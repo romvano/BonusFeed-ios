@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914B9651FE8263E007D4C88 /* Login.storyboard */; };
+		9980873C1FE851F9008B5520 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980873B1FE851F9008B5520 /* Maps.swift */; };
+		9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9980873E1FE85591008B5520 /* CoreLocation.framework */; };
 		99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA21FE801800019CA30 /* AppDelegate.swift */; };
 		99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA41FE801800019CA30 /* FirstViewController.swift */; };
 		99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA61FE801800019CA30 /* SecondViewController.swift */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9914B9651FE8263E007D4C88 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9980873B1FE851F9008B5520 /* Maps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		9980873E1FE85591008B5520 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99F22C9F1FE801800019CA30 /* BonusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F22CA21FE801800019CA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F22CA41FE801800019CA30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */,
 				B2EDC8A6479037CD9736ECDE /* Pods_BonusFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +100,7 @@
 		5907560AE8AB52DCAC16EBEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9980873E1FE85591008B5520 /* CoreLocation.framework */,
 				120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */,
 			);
 			name = Frameworks;
@@ -126,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				99F22CA21FE801800019CA30 /* AppDelegate.swift */,
+				9980873B1FE851F9008B5520 /* Maps.swift */,
 				99F22CA41FE801800019CA30 /* FirstViewController.swift */,
 				99F22CA61FE801800019CA30 /* SecondViewController.swift */,
 				99F22CA81FE801800019CA30 /* Main.storyboard */,
@@ -359,6 +366,7 @@
 			files = (
 				99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */,
 				99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */,
+				9980873C1FE851F9008B5520 /* Maps.swift in Sources */,
 				99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
