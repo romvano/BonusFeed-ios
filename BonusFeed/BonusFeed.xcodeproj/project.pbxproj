@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914B9651FE8263E007D4C88 /* Login.storyboard */; };
 		99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA21FE801800019CA30 /* AppDelegate.swift */; };
 		99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA41FE801800019CA30 /* FirstViewController.swift */; };
 		99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA61FE801800019CA30 /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9914B9651FE8263E007D4C88 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		99F22C9F1FE801800019CA30 /* BonusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F22CA21FE801800019CA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F22CA41FE801800019CA30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				99F22CA41FE801800019CA30 /* FirstViewController.swift */,
 				99F22CA61FE801800019CA30 /* SecondViewController.swift */,
 				99F22CA81FE801800019CA30 /* Main.storyboard */,
+				9914B9651FE8263E007D4C88 /* Login.storyboard */,
 				99F22CAB1FE801800019CA30 /* Assets.xcassets */,
 				99F22CAD1FE801800019CA30 /* LaunchScreen.storyboard */,
 				99F22CB01FE801800019CA30 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */,
 				99F22CAF1FE801800019CA30 /* LaunchScreen.storyboard in Resources */,
 				99F22CAC1FE801800019CA30 /* Assets.xcassets in Resources */,
 				99F22CAA1FE801800019CA30 /* Main.storyboard in Resources */,
