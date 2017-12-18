@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914B9651FE8263E007D4C88 /* Login.storyboard */; };
+		9980873C1FE851F9008B5520 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980873B1FE851F9008B5520 /* Maps.swift */; };
+		9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9980873E1FE85591008B5520 /* CoreLocation.framework */; };
 		99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA21FE801800019CA30 /* AppDelegate.swift */; };
 		99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA41FE801800019CA30 /* FirstViewController.swift */; };
 		99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA61FE801800019CA30 /* SecondViewController.swift */; };
@@ -15,6 +18,7 @@
 		99F22CAF1FE801800019CA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F22CAD1FE801800019CA30 /* LaunchScreen.storyboard */; };
 		99F22CBA1FE801800019CA30 /* BonusFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CB91FE801800019CA30 /* BonusFeedTests.swift */; };
 		99F22CC51FE801800019CA30 /* BonusFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CC41FE801800019CA30 /* BonusFeedUITests.swift */; };
+		B2EDC8A6479037CD9736ECDE /* Pods_BonusFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9914B9651FE8263E007D4C88 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9980873B1FE851F9008B5520 /* Maps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		9980873E1FE85591008B5520 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99F22C9F1FE801800019CA30 /* BonusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F22CA21FE801800019CA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F22CA41FE801800019CA30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		99F22CC01FE801800019CA30 /* BonusFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonusFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F22CC41FE801800019CA30 /* BonusFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusFeedUITests.swift; sourceTree = "<group>"; };
 		99F22CC61FE801800019CA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26CA75D240D5823A6D920A0 /* Pods-BonusFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonusFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed.release.xcconfig"; sourceTree = "<group>"; };
+		CABBBCA51D26D4F7B9B23341 /* Pods-BonusFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonusFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */,
+				B2EDC8A6479037CD9736ECDE /* Pods_BonusFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3CFD63FAFE6703B69CD822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CABBBCA51D26D4F7B9B23341 /* Pods-BonusFeed.debug.xcconfig */,
+				C26CA75D240D5823A6D920A0 /* Pods-BonusFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5907560AE8AB52DCAC16EBEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9980873E1FE85591008B5520 /* CoreLocation.framework */,
+				120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99F22C961FE801800019CA30 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				99F22CB81FE801800019CA30 /* BonusFeedTests */,
 				99F22CC31FE801800019CA30 /* BonusFeedUITests */,
 				99F22CA01FE801800019CA30 /* Products */,
+				3D3CFD63FAFE6703B69CD822 /* Pods */,
+				5907560AE8AB52DCAC16EBEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				99F22CA21FE801800019CA30 /* AppDelegate.swift */,
+				9980873B1FE851F9008B5520 /* Maps.swift */,
 				99F22CA41FE801800019CA30 /* FirstViewController.swift */,
 				99F22CA61FE801800019CA30 /* SecondViewController.swift */,
 				99F22CA81FE801800019CA30 /* Main.storyboard */,
+				9914B9651FE8263E007D4C88 /* Login.storyboard */,
 				99F22CAB1FE801800019CA30 /* Assets.xcassets */,
 				99F22CAD1FE801800019CA30 /* LaunchScreen.storyboard */,
 				99F22CB01FE801800019CA30 /* Info.plist */,
@@ -135,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99F22CC91FE801800019CA30 /* Build configuration list for PBXNativeTarget "BonusFeed" */;
 			buildPhases = (
+				013E9D934403DE7B4F2D7011 /* [CP] Check Pods Manifest.lock */,
 				99F22C9B1FE801800019CA30 /* Sources */,
 				99F22C9C1FE801800019CA30 /* Frameworks */,
 				99F22C9D1FE801800019CA30 /* Resources */,
+				8BB094DE8A2A9301796633CE /* [CP] Embed Pods Frameworks */,
+				11CA512041CDD6A7BB5AE408 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */,
 				99F22CAF1FE801800019CA30 /* LaunchScreen.storyboard in Resources */,
 				99F22CAC1FE801800019CA30 /* Assets.xcassets in Resources */,
 				99F22CAA1FE801800019CA30 /* Main.storyboard in Resources */,
@@ -257,6 +295,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		013E9D934403DE7B4F2D7011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BonusFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11CA512041CDD6A7BB5AE408 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB094DE8A2A9301796633CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonusFeed/Pods-BonusFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99F22C9B1FE801800019CA30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +366,7 @@
 			files = (
 				99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */,
 				99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */,
+				9980873C1FE851F9008B5520 /* Maps.swift in Sources */,
 				99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +531,7 @@
 		};
 		99F22CCA1FE801800019CA30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABBBCA51D26D4F7B9B23341 /* Pods-BonusFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +547,7 @@
 		};
 		99F22CCB1FE801800019CA30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26CA75D240D5823A6D920A0 /* Pods-BonusFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
