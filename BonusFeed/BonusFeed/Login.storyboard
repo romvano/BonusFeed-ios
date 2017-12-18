@@ -9,11 +9,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Papyrus.ttc">
-            <string>Papyrus</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="UvW-0z-QsL">
@@ -48,10 +43,10 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="191" id="XUJ-47-Vxy"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oe-Dw-I9A">
-                                <rect key="frame" x="92" y="349" width="191" height="30"/>
-                                <color key="textColor" red="0.45457607509999998" green="0.25500458479999999" blue="0.2588150501" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oe-Dw-I9A">
+                                <rect key="frame" x="92" y="349" width="191" height="31"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tn-gx-HAx">
@@ -68,19 +63,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uj0-D5-KRu">
-                                <rect key="frame" x="92" y="406" width="191" height="30"/>
+                                <rect key="frame" x="92" y="407" width="191" height="30"/>
                                 <color key="textColor" red="0.48704663209999999" green="0.24331201599999999" blue="0.2530043018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yn-od-MLJ">
-                                <rect key="frame" x="119" y="486" width="137" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Yn-od-MLJ">
+                                <rect key="frame" x="119" y="487" width="137" height="37"/>
                                 <color key="backgroundColor" red="0.45460933446884155" green="0.33796358108520508" blue="0.28626072406768799" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="tintColor" red="0.96072489023208618" green="0.95712345838546753" blue="0.93725210428237915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleShadowColor" red="0.3487980664" green="0.25536030529999998" blue="0.22352024910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Enter">
+                                            <attributes>
+                                                <font key="NSFont" size="23" name="MarkerFelt-Thin"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onm-pr-GmG">
+                                <rect key="frame" x="132" y="567" width="114" height="30"/>
+                                <color key="backgroundColor" red="0.45460933446884155" green="0.33796358108520508" blue="0.28626072406768799" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.96072489023208618" green="0.95712345838546753" blue="0.93725210428237915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Create account">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="rhO-fV-jvm" kind="show" id="27t-R2-PDI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.34879806637763977" green="0.25536030530929565" blue="0.22352024912834167" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -88,11 +106,14 @@
                             <constraint firstItem="yZQ-a6-0xK" firstAttribute="trailing" secondItem="0Yn-od-MLJ" secondAttribute="trailing" constant="119" id="34g-rp-Din"/>
                             <constraint firstItem="uj0-D5-KRu" firstAttribute="leading" secondItem="yZQ-a6-0xK" secondAttribute="leading" constant="92" id="7fS-du-rdW"/>
                             <constraint firstItem="uj0-D5-KRu" firstAttribute="top" secondItem="3oe-Dw-I9A" secondAttribute="bottom" constant="27" id="81W-N9-hYa"/>
+                            <constraint firstItem="onm-pr-GmG" firstAttribute="top" secondItem="0Yn-od-MLJ" secondAttribute="bottom" constant="43" id="MMY-Hn-9Pi"/>
                             <constraint firstItem="0Yn-od-MLJ" firstAttribute="leading" secondItem="yZQ-a6-0xK" secondAttribute="leading" constant="119" id="MRG-aV-LhJ"/>
                             <constraint firstItem="yZQ-a6-0xK" firstAttribute="trailing" secondItem="p3Y-yR-PN7" secondAttribute="trailing" constant="92" id="NTZ-bk-Yds"/>
                             <constraint firstItem="p3Y-yR-PN7" firstAttribute="top" secondItem="yZQ-a6-0xK" secondAttribute="top" constant="22" id="RjS-sG-hHd"/>
                             <constraint firstItem="2tn-gx-HAx" firstAttribute="leading" secondItem="yZQ-a6-0xK" secondAttribute="leading" constant="119" id="WJL-vM-3oR"/>
+                            <constraint firstItem="onm-pr-GmG" firstAttribute="leading" secondItem="yZQ-a6-0xK" secondAttribute="leading" constant="132" id="WLp-oD-caC"/>
                             <constraint firstItem="3oe-Dw-I9A" firstAttribute="top" secondItem="2tn-gx-HAx" secondAttribute="bottom" constant="36.5" id="dF3-PT-sWm"/>
+                            <constraint firstItem="yZQ-a6-0xK" firstAttribute="trailing" secondItem="onm-pr-GmG" secondAttribute="trailing" constant="129" id="drk-bk-UYh"/>
                             <constraint firstItem="0Yn-od-MLJ" firstAttribute="top" secondItem="uj0-D5-KRu" secondAttribute="bottom" constant="50" id="ew0-YY-g8L"/>
                             <constraint firstItem="yZQ-a6-0xK" firstAttribute="trailing" secondItem="3oe-Dw-I9A" secondAttribute="trailing" constant="92" id="hnS-wg-hvz"/>
                             <constraint firstItem="p3Y-yR-PN7" firstAttribute="leading" secondItem="yZQ-a6-0xK" secondAttribute="leading" constant="92" id="tw5-T5-85K"/>
@@ -103,11 +124,26 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yZQ-a6-0xK"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2nv-PU-gvo"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="2nv-PU-gvo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twH-hR-x4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-133.59999999999999" y="82.3088455772114"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gEJ-Mf-QSZ">
+            <objects>
+                <viewController id="rhO-fV-jvm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.34879806637763977" green="0.25536030530929565" blue="0.22352024912834167" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="uPk-44-f8y"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mb-r9-JIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="645" y="85"/>
         </scene>
     </scenes>
     <resources>
