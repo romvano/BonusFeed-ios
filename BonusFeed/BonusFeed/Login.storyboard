@@ -25,11 +25,11 @@
             </objects>
             <point key="canvasLocation" x="-1030" y="80"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="HQK-Jr-PXQ">
             <objects>
-                <viewController id="6Zh-fq-Txa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s" customClass="LoginView" customModule="BonusFeed" customModuleProvider="target">
+                <viewController id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -80,6 +80,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="performLogin:" destination="6Zh-fq-Txa" eventType="touchUpInside" id="HGc-tD-XRZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onm-pr-GmG">
                                 <rect key="frame" x="132" y="567" width="114" height="30"/>
@@ -124,6 +127,11 @@
                         <viewLayoutGuide key="safeArea" id="yZQ-a6-0xK"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="2nv-PU-gvo"/>
+                    <connections>
+                        <outlet property="loginTextView" destination="3oe-Dw-I9A" id="v1G-Jf-2Z6"/>
+                        <outlet property="pwdTextView" destination="uj0-D5-KRu" id="qWW-ck-TCQ"/>
+                        <outlet property="submit" destination="0Yn-od-MLJ" id="lF4-yK-8cE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twH-hR-x4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

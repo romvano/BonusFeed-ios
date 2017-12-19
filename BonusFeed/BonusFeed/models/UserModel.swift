@@ -50,7 +50,7 @@ class UserModel: Object {
     
     static func load() -> UserModel? {
         let realm = try! Realm()
-        let user = realm.objects(self).first
+        let user = realm.objects(UserModel.self).first
         return user
     }
     
