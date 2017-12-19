@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JcF-gV-U3d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JcF-gV-U3d">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Login Controller-->
         <scene sceneID="UvW-0z-QsL">
             <objects>
-                <navigationController id="JcF-gV-U3d" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JcF-gV-U3d" customClass="LoginController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MJx-4r-k0z">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -30,7 +29,7 @@
         <scene sceneID="HQK-Jr-PXQ">
             <objects>
                 <viewController id="6Zh-fq-Txa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s">
+                    <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s" customClass="LoginView" customModule="BonusFeed" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -134,7 +133,7 @@
         <scene sceneID="gEJ-Mf-QSZ">
             <objects>
                 <viewController id="rhO-fV-jvm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe">
+                    <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe" customClass="RegistrationView" customModule="BonusFeed" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.34879806637763977" green="0.25536030530929565" blue="0.22352024912834167" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
