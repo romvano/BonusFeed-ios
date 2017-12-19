@@ -13,9 +13,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func setRootVC(code: Int?, user: UserModel?) {
+        let storyboard = UIStoryboard(name: "Login", bundle: nil)
+        let loginViewController = storyboard.instantiateViewController(withIdentifier: "LoginController")
+        
+        if code == nil || code == API.OK && user == nil {
+            // go to local storage
+            if UserModel.load() == nil {
+                self.window?.rootViewController = loginViewController
+            }
+            return
+        }
+        
+        switch code! {
+        case API.OK:
+            return
+        case API.NOT_AUTHED:
+            self.window?.rootViewController = loginViewController
+            break
+        default:
+            return
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Here we need to decide whether to go to login screen
+        ClientAPI().getClientInfo(onResult: setRootVC)
         return true
     }
 

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JcF-gV-U3d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JcF-gV-U3d">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +12,7 @@
         <!--Navigation Controller-->
         <scene sceneID="UvW-0z-QsL">
             <objects>
-                <navigationController id="JcF-gV-U3d" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JcF-gV-U3d" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MJx-4r-k0z">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -26,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-1030" y="80"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="HQK-Jr-PXQ">
             <objects>
-                <viewController id="6Zh-fq-Txa" sceneMemberID="viewController">
+                <viewController id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,6 +80,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="performLogin:" destination="6Zh-fq-Txa" eventType="touchUpInside" id="HGc-tD-XRZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onm-pr-GmG">
                                 <rect key="frame" x="132" y="567" width="114" height="30"/>
@@ -125,6 +127,11 @@
                         <viewLayoutGuide key="safeArea" id="yZQ-a6-0xK"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="2nv-PU-gvo"/>
+                    <connections>
+                        <outlet property="loginTextView" destination="3oe-Dw-I9A" id="v1G-Jf-2Z6"/>
+                        <outlet property="pwdTextView" destination="uj0-D5-KRu" id="qWW-ck-TCQ"/>
+                        <outlet property="submit" destination="0Yn-od-MLJ" id="lF4-yK-8cE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twH-hR-x4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -134,7 +141,7 @@
         <scene sceneID="gEJ-Mf-QSZ">
             <objects>
                 <viewController id="rhO-fV-jvm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe">
+                    <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe" customClass="RegistrationView" customModule="BonusFeed" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.34879806637763977" green="0.25536030530929565" blue="0.22352024912834167" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
