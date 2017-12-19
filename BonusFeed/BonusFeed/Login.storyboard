@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login Controller-->
+        <!--Navigation Controller-->
         <scene sceneID="UvW-0z-QsL">
             <objects>
-                <navigationController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JcF-gV-U3d" customClass="LoginController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JcF-gV-U3d" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MJx-4r-k0z">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
