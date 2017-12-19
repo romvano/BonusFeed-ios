@@ -19,6 +19,10 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var pwdTextView: UITextField!
     @IBOutlet weak var submit: UIButton!
     
+    @IBAction func onTapGestureRecognized(_ sender: Any) {
+        loginTextView.resignFirstResponder()
+        pwdTextView.resignFirstResponder()
+    }
     @IBAction func performLogin(_ sender: UIButton!) {
         let login: String = loginTextView.text != nil ? loginTextView.text! : ""
         let pwd: String = pwdTextView.text != nil ? pwdTextView.text! : ""
