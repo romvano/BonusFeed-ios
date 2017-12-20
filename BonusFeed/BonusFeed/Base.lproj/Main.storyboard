@@ -20,7 +20,7 @@
         <!--QR Code-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="QRViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="QRViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,11 +142,6 @@
                         <color key="tintColor" red="0.96072489019999996" green="0.94498363236232685" blue="0.95171854037727499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="barTintColor" red="0.3487980664" green="0.25536030529999998" blue="0.22352024910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="selectedImageTintColor" red="0.96072489019999996" green="0.95712345840000002" blue="0.93725210430000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="tintcolor">
-                                <color key="value" red="0.46320433937823835" green="0.124087718084623" blue="0.43104347751006011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>

@@ -28,7 +28,7 @@
         <!--Login View Controller-->
         <scene sceneID="HQK-Jr-PXQ">
             <objects>
-                <viewController id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
         <!--Registration View Controller-->
         <scene sceneID="gEJ-Mf-QSZ">
             <objects>
-                <viewController id="rhO-fV-jvm" customClass="RegistrationViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistrationView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rhO-fV-jvm" customClass="RegistrationViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
