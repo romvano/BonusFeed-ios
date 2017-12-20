@@ -15,6 +15,7 @@
 		843722F01FE9042F00B0C704 /* HostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722EC1FE9042F00B0C704 /* HostModel.swift */; };
 		843722F11FE9042F00B0C704 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722ED1FE9042F00B0C704 /* UserModel.swift */; };
 		843722F91FE943A800B0C704 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722F81FE943A800B0C704 /* LoginViewController.swift */; };
+		843722FF1FE9D8ED00B0C704 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722FE1FE9D8ED00B0C704 /* RegistrationViewController.swift */; };
 		9914B9661FE8263E007D4C88 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9914B9651FE8263E007D4C88 /* Login.storyboard */; };
 		9980873C1FE851F9008B5520 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980873B1FE851F9008B5520 /* Maps.swift */; };
 		9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9980873E1FE85591008B5520 /* CoreLocation.framework */; };
@@ -56,6 +57,7 @@
 		843722EC1FE9042F00B0C704 /* HostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostModel.swift; sourceTree = "<group>"; };
 		843722ED1FE9042F00B0C704 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		843722F81FE943A800B0C704 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		843722FE1FE9D8ED00B0C704 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		9914B9651FE8263E007D4C88 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9980873B1FE851F9008B5520 /* Maps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
 		9980873E1FE85591008B5520 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -177,6 +179,7 @@
 				99F22CA81FE801800019CA30 /* Main.storyboard */,
 				9914B9651FE8263E007D4C88 /* Login.storyboard */,
 				843722F81FE943A800B0C704 /* LoginViewController.swift */,
+				843722FE1FE9D8ED00B0C704 /* RegistrationViewController.swift */,
 				99F22CAB1FE801800019CA30 /* Assets.xcassets */,
 				99F22CAD1FE801800019CA30 /* LaunchScreen.storyboard */,
 				99F22CB01FE801800019CA30 /* Info.plist */,
@@ -408,6 +411,7 @@
 				843722EF1FE9042F00B0C704 /* HostArrayModel.swift in Sources */,
 				99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */,
 				99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */,
+				843722FF1FE9D8ED00B0C704 /* RegistrationViewController.swift in Sources */,
 				843722E91FE9042400B0C704 /* ClientAPI.swift in Sources */,
 				843722F01FE9042F00B0C704 /* HostModel.swift in Sources */,
 				843722E81FE9042400B0C704 /* APIConstants.swift in Sources */,

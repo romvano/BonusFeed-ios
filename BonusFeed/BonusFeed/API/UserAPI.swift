@@ -28,7 +28,7 @@ class UserAPI {
             "login": login,
             "password": pwd
         ]
-        Alamofire.request(USER_URL + "login/", method: .post, parameters: params).responseJSON { response in
+        Alamofire.request(USER_URL + "login/", method: .post, parameters: params, encoding: JSONEncoding.default).responseJSON { response in
             guard response.result.error == nil else {
                 onResult(nil, nil)
                 return
@@ -61,7 +61,7 @@ class UserAPI {
             "login": login,
             "password": pwd
         ]
-        Alamofire.request(USER_URL + "register/", method: .post, parameters: params).responseJSON { response in
+        Alamofire.request(USER_URL + "register/", method: .post, parameters: params, encoding: JSONEncoding.default).responseJSON { response in
             guard response.result.error == nil else {
                 onResult(nil)
                 return
@@ -90,7 +90,7 @@ class UserAPI {
          *     401 if not authed
          */
         
-        Alamofire.request(USER_URL + "logout/", method: .post).responseJSON { response in
+        Alamofire.request(USER_URL + "logout/", method: .post, encoding: JSONEncoding.default).responseJSON { response in
             guard response.result.error == nil else {
                 onResult(nil)
                 return
