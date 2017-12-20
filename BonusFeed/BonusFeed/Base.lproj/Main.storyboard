@@ -49,9 +49,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="QR Code" image="qrtabbaricon" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="id" destination="A5M-7J-77L" id="Ht0-fW-A8K"/>
-                        <outlet property="idLabel" destination="A5M-7J-77L" id="M9C-pq-Mba"/>
-                        <outlet property="img" destination="yc2-kE-UQh" id="Lsb-iB-otW"/>
+                        <outlet property="idLabel" destination="A5M-7J-77L" id="JSX-WH-aTf"/>
+                        <outlet property="img" destination="yc2-kE-UQh" id="fZb-d2-BCK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
