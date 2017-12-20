@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JcF-gV-U3d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,7 +28,7 @@
         <!--Login View Controller-->
         <scene sceneID="HQK-Jr-PXQ">
             <objects>
-                <viewController id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Zh-fq-Txa" customClass="LoginViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0QW-Z7-B6s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
         <!--Registration View Controller-->
         <scene sceneID="gEJ-Mf-QSZ">
             <objects>
-                <viewController id="rhO-fV-jvm" customClass="RegistrationViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegistrationView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rhO-fV-jvm" customClass="RegistrationViewController" customModule="BonusFeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nvI-1o-8Oe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="performRegistration:" destination="rhO-fV-jvm" eventType="touchUpInside" id="vDq-wq-lvA"/>
+                                    <action selector="performRegistration:" destination="rhO-fV-jvm" eventType="touchUpInside" id="Czf-hM-lCk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIC-vs-14f">
@@ -202,15 +202,24 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.34879806637763977" green="0.25536030530929565" blue="0.22352024912834167" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="uPk-44-f8y"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="OND-Fn-813" appends="YES" id="U6W-el-fcb"/>
+                        </connections>
                     </view>
                     <connections>
-                        <outlet property="loginTextView" destination="pD6-yW-yiS" id="Vz3-Wv-g9Y"/>
-                        <outlet property="pwdTextView" destination="YL2-mS-Mwb" id="9nT-JH-e5W"/>
-                        <outlet property="submit" destination="WcF-4y-L4l" id="Rhe-DG-7tw"/>
+                        <outlet property="loginTextView" destination="pD6-yW-yiS" id="317-aa-fpN"/>
+                        <outlet property="pwdTextView" destination="YL2-mS-Mwb" id="FPg-kO-kw6"/>
+                        <outlet property="submit" destination="WcF-4y-L4l" id="G5A-Kr-gvW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mb-r9-JIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="OND-Fn-813">
+                    <connections>
+                        <action selector="onTapGestureRecognized:" destination="rhO-fV-jvm" id="6b5-yN-67N"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="644" y="84.107946026986511"/>
         </scene>

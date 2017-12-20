@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8425A2771FEA7AD900CA61EE /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425A2761FEA7AD900CA61EE /* QRViewController.swift */; };
 		843722E71FE9042400B0C704 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722E41FE9042400B0C704 /* UserAPI.swift */; };
 		843722E81FE9042400B0C704 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722E51FE9042400B0C704 /* APIConstants.swift */; };
 		843722E91FE9042400B0C704 /* ClientAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722E61FE9042400B0C704 /* ClientAPI.swift */; };
@@ -20,7 +21,6 @@
 		9980873C1FE851F9008B5520 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9980873B1FE851F9008B5520 /* Maps.swift */; };
 		9980873F1FE855B9008B5520 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9980873E1FE85591008B5520 /* CoreLocation.framework */; };
 		99F22CA31FE801800019CA30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA21FE801800019CA30 /* AppDelegate.swift */; };
-		99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA41FE801800019CA30 /* FirstViewController.swift */; };
 		99F22CA71FE801800019CA30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F22CA61FE801800019CA30 /* SecondViewController.swift */; };
 		99F22CAA1FE801800019CA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F22CA81FE801800019CA30 /* Main.storyboard */; };
 		99F22CAC1FE801800019CA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F22CAB1FE801800019CA30 /* Assets.xcassets */; };
@@ -49,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		120A954E9FDF51761727D602 /* Pods_BonusFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonusFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8425A2761FEA7AD900CA61EE /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		843722E41FE9042400B0C704 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		843722E51FE9042400B0C704 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		843722E61FE9042400B0C704 /* ClientAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientAPI.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		9980873E1FE85591008B5520 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99F22C9F1FE801800019CA30 /* BonusFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonusFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F22CA21FE801800019CA30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99F22CA41FE801800019CA30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		99F22CA61FE801800019CA30 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		99F22CA91FE801800019CA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99F22CAB1FE801800019CA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 				843722E21FE903B500B0C704 /* models */,
 				99F22CA21FE801800019CA30 /* AppDelegate.swift */,
 				9980873B1FE851F9008B5520 /* Maps.swift */,
-				99F22CA41FE801800019CA30 /* FirstViewController.swift */,
+				8425A2761FEA7AD900CA61EE /* QRViewController.swift */,
 				99F22CA61FE801800019CA30 /* SecondViewController.swift */,
 				99F22CA81FE801800019CA30 /* Main.storyboard */,
 				9914B9651FE8263E007D4C88 /* Login.storyboard */,
@@ -417,8 +417,8 @@
 				843722E81FE9042400B0C704 /* APIConstants.swift in Sources */,
 				9980873C1FE851F9008B5520 /* Maps.swift in Sources */,
 				843722E71FE9042400B0C704 /* UserAPI.swift in Sources */,
+				8425A2771FEA7AD900CA61EE /* QRViewController.swift in Sources */,
 				843722F91FE943A800B0C704 /* LoginViewController.swift in Sources */,
-				99F22CA51FE801800019CA30 /* FirstViewController.swift in Sources */,
 				843722F11FE9042F00B0C704 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,7 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34PL8GRUEQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BonusFeed/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -604,7 +604,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 34PL8GRUEQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BonusFeed/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

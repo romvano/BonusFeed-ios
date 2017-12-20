@@ -4,6 +4,80 @@
    <FileRef
       location = "group:BonusFeed.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:BonusFeed"
+      name = "BonusFeed">
+      <Group
+         location = "group:BonusFeed/API"
+         name = "API">
+         <FileRef
+            location = "group:BonusFeed/API/APIConstants.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BonusFeed/API/ClientAPI.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BonusFeed/API/UserAPI.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:BonusFeed/models"
+         name = "models">
+         <FileRef
+            location = "group:BonusFeed/models/common.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BonusFeed/models/HostArrayModel.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BonusFeed/models/HostModel.swift">
+         </FileRef>
+         <FileRef
+            location = "group:BonusFeed/models/UserModel.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:BonusFeed/AppDelegate.swift">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/Maps.swift">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/QRViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/SecondViewController.swift">
+      </FileRef>
+      <Group
+         location = "group:BonusFeed"
+         name = "Main.storyboard">
+         <FileRef
+            location = "group:BonusFeed/Base.lproj/Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:BonusFeed/Login.storyboard">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/LoginViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/RegistrationViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:BonusFeed/Assets.xcassets">
+      </FileRef>
+      <Group
+         location = "group:BonusFeed"
+         name = "LaunchScreen.storyboard">
+         <FileRef
+            location = "group:BonusFeed/Base.lproj/LaunchScreen.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:BonusFeed/Info.plist">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
