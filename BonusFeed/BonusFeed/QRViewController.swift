@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  QRViewController.swift
 //  BonusFeed
 //
 //  Created by Daria Firsova on 18.12.2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class QRViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
